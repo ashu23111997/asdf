@@ -4,7 +4,7 @@ class Even1{
   {
     int num = (new Scanner(System.in)).nextInt();
     if(num<0)
-      System.out.println("Invalid");
+      System.out.println("invalid");
     else if(num%2==0)
       System.out.println("Even");
     else
